@@ -12,6 +12,8 @@
 /db/*.sqlite3-journal
 /config/database.yml
 /config/secrets.yml
+public/javascripts/i18n.js
+public/javascripts/translations.js
 
 # Ignore all logfiles and tempfiles.
 /log/*
