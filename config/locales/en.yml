@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  ror: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
       app_ror: " | Ruby on Rails Tutorial Sample App"
