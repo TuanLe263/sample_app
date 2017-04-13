@@ -1,0 +1,18 @@
+<footer class="footer">
+  <small>
+    <%= t ".footer_the" %>
+    <a href="http://www.railstutorial.org/"><%= t "ror" %></a>
+    <%= t ".footer_by" %>
+    <a href="http://www.michaelhartl.com/"><%= t ".footer_author" %></a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.about_title"),
+        "/about" %></li>
+      <li><%= link_to t("static_pages.contact.contact_title"),
+        "/contact" %></li>
+      <li><a href="http://news.railstutorial.org/">
+        <%= t ".footer_news" %></a></li>
+    </ul>
+  </nav>
+</footer>
