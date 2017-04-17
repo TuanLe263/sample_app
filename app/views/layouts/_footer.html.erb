@@ -1,18 +1,16 @@
 <footer class="footer">
   <small>
-    <%= t ".footer_the" %>
-    <a href="http://www.railstutorial.org/"><%= t "ror" %></a>
-    <%= t ".footer_by" %>
-    <a href="http://www.michaelhartl.com/"><%= t ".footer_author" %></a>
+  <%= raw t(".footer_text",
+    ror: link_to(t("ror"), "http://www.railstutorial.org/"),
+    author: link_to(t(".author"), "http://www.michaelhartl.com/")) %>
   </small>
   <nav>
     <ul>
-      <li><%= link_to t("static_pages.about.about_title"),
-        "/about" %></li>
+      <li><%= link_to t("static_pages.about.about_title"), about_path %></li>
       <li><%= link_to t("static_pages.contact.contact_title"),
-        "/contact" %></li>
-      <li><a href="http://news.railstutorial.org/">
-        <%= t ".footer_news" %></a></li>
+        contact_path %></li>
+      <li><%= link_to(t(".footer_news"),
+        "http://news.railstutorial.org/") %></li>
     </ul>
   </nav>
 </footer>
