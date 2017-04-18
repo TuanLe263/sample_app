@@ -1,9 +1,7 @@
 <% provide :title, t(".help_title") %>
 <h1><%= t ".help_title" %></h1>
 <p>
-  <%= t ".help_get" %>
-  <a href="http://www.railstutorial.org/help"><%= t ".help_ror_help" %></a>
-  <%= t ".help_to_get" %>
-  <a href="http://www.railstutorial.org/book"><em><%= t "ror" %></em>
-    <%= t ".help_book" %></a>.
+  <%= raw t(".help_text",
+    help_section: link_to(t(".help_section"), "http://www.railstutorial.org/help"),
+    help_book: link_to(t(".help_book"), "http://www.railstutorial.org/book")) %>
 </p>
