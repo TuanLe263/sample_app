@@ -23,10 +23,15 @@ en:
   log_in: "Log in"
   sign_up: "Sign up now!"
   sample_app: "sample_app"
-  welcome: "Welcome to the Sample App"
+  welcome: "Welcome to the Sample App!"
   ror_app: "Ruby on Rails Tutorial Sample App"
   ror: "Ruby on Rails Tutorial"
   r_logo: "Rails logo"
+  msg: "The form contains "
+  error: "error"
+  confirm: "Confirmation"
+  create_acc: "Create my account"
+  data_not_exist: "Data not exist!"
   layouts:
     application:
       app_ror: " | Ruby on Rails Tutorial Sample App"
