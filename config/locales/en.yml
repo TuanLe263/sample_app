@@ -21,6 +21,10 @@
 
 en:
   log_in: "Log in"
+  log_out: "Log out"
+  profile: "Profile"
+  setting: "Settings"
+  acc: "Account"
   sign_up: "Sign up now!"
   sample_app: "sample_app"
   welcome: "Welcome to the Sample App!"
@@ -32,6 +36,9 @@ en:
   confirm: "Confirmation"
   create_acc: "Create my account"
   data_not_exist: "Data not exist!"
+  new_user: "New user? "
+  invalid_acc: "Invalid email/password combination"
+  user: "Users"
   layouts:
     application:
       app_ror: " | Ruby on Rails Tutorial Sample App"
