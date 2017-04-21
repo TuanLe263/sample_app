@@ -20,10 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  log_in: "Log in"
-  log_out: "Log out"
-  profile: "Profile"
-  setting: "Settings"
   acc: "Account"
   sign_up: "Sign up now!"
   sample_app: "sample_app"
@@ -33,13 +29,26 @@ en:
   r_logo: "Rails logo"
   msg: "The form contains "
   error: "error"
-  confirm: "Confirmation"
   create_acc: "Create my account"
   data_not_exist: "Data not exist!"
   new_user: "New user? "
   invalid_acc: "Invalid email/password combination"
-  user: "Users"
+  remember_me: "Remember me on this computer"
+
+  users:
+    confirm: "Confirmation"
+    edit:
+      edit_title: "Edit user"
+      edit_content: "Update your profile"
+      edit_save: "Save changes"
+      edit_change: "change"
+
   layouts:
+    profile: "Profile"
+    setting: "Settings"
+    log_in: "Log in"
+    log_out: "Log out"
+    user: "Users"
     application:
       app_ror: " | Ruby on Rails Tutorial Sample App"
     footer:
