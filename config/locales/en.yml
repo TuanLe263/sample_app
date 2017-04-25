@@ -44,7 +44,8 @@ en:
   check_mail: "Please check your email to activate your account."
   acc_activated: "Account activated!"
   invalid_act: "Invalid activation link"
-  check_activation: "Account not activated. Check your email for the activation link."
+  acc_not_activated: "Account not activated.
+    Check your email for the activation link."
   acc_activation: "Account activation"
   pass_reset: "Password reset"
   forgot_password: "(forgot password)"
@@ -58,6 +59,16 @@ en:
   cant_be_empty: "can't be empty"
   pw_has_been_reset: "Password has been reset"
   pw_reset_has_expired: "Password reset has expired."
+  microposts: "Microposts "
+  plz_login: "Please log in."
+  mrp_created: "Micropost created!"
+  view_profile: "view my profile"
+  micropost: "micropost"
+  place_holder: "Compose new micropost..."
+  micro_feed: "Micropost Feed"
+  micro_del: "Micropost deleted"
+  picture_size: "should be less than 1MB"
+  maxium_pic_size: "Maximum file size is 5MB. Please choose a smaller file."
   user_mailer:
     account_activation:
       hi: "Hi "
