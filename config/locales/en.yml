@@ -20,6 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  user_del: "User deleted"
+  delete: "delete"
+  confirm_del: "You sure?"
   acc: "Account"
   sign_up: "Sign up now!"
   sample_app: "sample_app"
@@ -34,14 +37,25 @@ en:
   new_user: "New user? "
   invalid_acc: "Invalid email/password combination"
   remember_me: "Remember me on this computer"
-
+  change: "change"
+  save: "Save changes"
+  profile: "Profile updated"
+  mess_login: "Please log in"
+  sessions:
+    new:
+      new_title: "Log in"
   users:
+    index:
+      show_all: "All users"
     confirm: "Confirmation"
     edit:
       edit_title: "Edit user"
       edit_content: "Update your profile"
       edit_save: "Save changes"
       edit_change: "change"
+    new:
+      new_signup: "Sign up"
+      new_text: "This will be a signup page for new users."
 
   layouts:
     profile: "Profile"
@@ -78,7 +92,3 @@ en:
       contact_text: "Contact the Ruby on Rails Tutorial about
         the sample app at the %{page} . "
       page: "contact page"
-  users:
-    new:
-      new_signup: "Sign up"
-      new_text: "This will be a signup page for new users."
