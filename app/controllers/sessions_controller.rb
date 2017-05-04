@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
         params[:session][:remember_me] == "1" ? remember(user) : forget(user)
         redirect_back_or user
       else
-        flash[:warning] = t "check_activation"
+        flash[:warning] = t "acc_not_activated"
         redirect_to root_path
       end
     else
