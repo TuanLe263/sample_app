@@ -25,7 +25,7 @@ en:
   confirm_del: "You sure?"
   acc: "Account"
   sign_up: "Sign up now!"
-  sample_app: "sample_app"
+  sample_app: "Sample_app"
   welcome: "Welcome to the Sample App!"
   ror_app: "Ruby on Rails Tutorial Sample App"
   ror: "Ruby on Rails Tutorial"
@@ -41,6 +41,21 @@ en:
   save: "Save changes"
   profile: "Profile updated"
   mess_login: "Please log in"
+  check_mail: "Please check your email to activate your account."
+  acc_activated: "Account activated!"
+  invalid_act: "Invalid activation link"
+  check_activation: "Account not activated. Check your email for the activation link."
+  acc_activation: "Account activation"
+  activate: "Activate"
+  user_mailer:
+    account_activation:
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below
+        to activate your account:"
+      comma: ","
+    password_reset:
+      pw_text: "User#password_reset"
+      pw_content: ", find me in app/views/user_mailer/password_reset.html.erb"
   sessions:
     new:
       new_title: "Log in"
