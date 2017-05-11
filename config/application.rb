@@ -18,6 +18,7 @@ module SampleApp
       YAML.load(File.open(env_file)).each do |key, value|
         ENV[key.to_s] = value
       end if File.exists?(env_file)
+    config.action_view.embed_authenticity_token_in_remote_forms = true
     end
   end
 end
