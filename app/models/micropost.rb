@@ -1,7 +1,8 @@
 class Micropost < ApplicationRecord
   belongs_to :user
 
-  scope :scope_order_created_at, -> {order created_at: :desc}
+  scope :scope_order, -> {order created_at: :desc}
+  scope :microposts_feed, ->user{where user_id: user.following_ids << user.id}
 
   mount_uploader :picture, PictureUploader
 
