@@ -69,10 +69,12 @@ en:
   micro_del: "Micropost deleted"
   picture_size: "should be less than 1MB"
   maxium_pic_size: "Maximum file size is 5MB. Please choose a smaller file."
-  posted: "Posted "
+  follow: "Follow"
+  unfollow: "Unfollow"
+  following: "Following"
+  followers: "Followers"
+  post: "Posted "
   ago: " ago."
-  post: "Post"
-
   user_mailer:
     account_activation:
       hi: "Hi "
